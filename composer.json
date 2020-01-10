@@ -1,5 +1,5 @@
 {
-    "name": "sanpi/assetic",
+    "name": "effiana/assetic",
     "description": "Asset Management for PHP",
     "keywords": [ "assets", "compression", "minification" ],
     "homepage": "https://github.com/sanpi/assetic",
@@ -14,13 +14,14 @@
     ],
     "require": {
         "php": ">=5.3.1",
-        "symfony/process": "^2.7|^3.0|^4.0"
+        "symfony/process": "^4.0|^5.0"
     },
     "conflict": {
         "twig/twig": "<1.34|>=2,<2.4"
     },
     "replace": {
-        "kriswallsmith/assetic": "self.version"
+        "kriswallsmith/assetic": "self.version",
+        "sanpi/assetic": "self.version"
     },
     "require-dev": {
         "leafo/lessphp": "^0.5",
